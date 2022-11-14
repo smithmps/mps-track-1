@@ -1,0 +1,160 @@
+/* home page */
+#wrapper {
+    margin: 0 auto;
+    width: 1280px;
+    } 
+
+#logo {
+    height: 50px;
+    width: 220px;
+    float: left;
+}
+
+#nav {
+    float: right;
+    width: 360px;
+    height: 50px;
+    font-family: calibri;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    background-color: none;
+}
+#nav:hover{
+        cursor: pointer;
+}
+
+#home {
+    width: 120px;
+    line-height: 50px;
+    float: left;
+    color: black;
+}
+#home:hover{
+        background-color: cadetblue;
+        color: white;
+}
+
+#services {
+    width: 120px;
+    line-height: 50px;
+    float: left;
+    color: black;
+    }
+#services:hover{
+        background-color:cadetblue;
+        color: white;
+    }
+
+#portfolio {
+    width: 120px;
+    line-height: 50px;
+    float: left;
+    color: black;
+    }
+#portfolio:hover{
+        background-color: cadetblue;
+        color: white;
+    }
+
+#motto {
+    font-family: Calibri;
+    font: weight 10px;
+    font-size: 20pt;
+    font-weight:lighter;
+    color:cadetblue;
+    text-align: center;
+}
+
+#index_name {
+    font-family: calibri;
+    padding-left: 70px;
+}
+
+#profile {
+    width: 325px;
+    height: 270px;
+    border-radius: 50%;
+    float:left;
+    padding-left: 0px;
+
+}
+
+.h2float {
+    padding-left: 400px;
+    font-family: calibri;
+    font-size: 15pt;
+}
+
+#para1 {
+    padding-left: 400px;
+    font-family: calibri;
+    font-size: 14pt;
+    width: 670px;
+}
+
+#list1 {
+    padding-left: 400px;
+    font-family: calibri;
+    font-size: 14pt;
+    width: 670px;
+    list-style-type: none;
+}
+
+.h2nofloat {
+    font-family: calibri;
+    font-size: 15pt;
+}
+
+.list2 {
+    font-family: calibri;
+    font-size: 14pt;
+    width: 670px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer {
+    font-size: 18px;
+    font-family: arial; 
+    color: grey; 
+    text-align: center;
+    padding-bottom: 0px;
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 1px;
+}
+
+/* services page */
+
+#services_img {
+    width: 404px;
+    height: 297px;
+    border-radius: 5%;
+    float: left;
+}
+
+#services_name {
+    font-family: calibri;
+    padding-left: 500px
+}
+
+
+#list3 {
+    font-family: calibri;
+    font-size: 18pt;
+    list-style-type: square;
+    padding-left: 500px;   
+}
+
+/* portfolio page */
+
+#portfolio_name{
+    font-family: calibri;
+}
+
+#para2 {
+    font-family: calibri;
+    font-size: 14pt;
+    width: 870px;
+}
