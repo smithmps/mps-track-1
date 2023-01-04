@@ -1,1 +1,33 @@
 project description
+
+First Portfolio page.
+
+Overview.
+This first portfolio site is the result of the first learning track from 'Learning People' Front End Developer Course. 
+
+The requirements for the site consist of:
+
+
+
+Features
+
+
+
+Technologies Used
+HTML
+CSS
+Bootstrap
+Git
+Github
+External Links
+
+Viewing on a mobile and tablet
+Please confirm that when you view my site on a mobile or tablet, the site has good spacing, not too much content and is easy to use on all devices.
+
+Deployment
+This website was creating using WebStorm IDE, a local git directory was used for version control, and then uploaded to GitHub. I have made it live using Git pages. To do this I initiated the git repository with 'git innit', then used 'git status' to see which of my un-tracked files had not been added to the new repository. I used 'git commit -m "added in a specific message" to commit my changed files to the repository. Once my files were committed I used 'git push' to push all my new and changed files to GitHub before making it live with Git pages. I did this every time I made major changes to any part of my site.
+
+
+Media
+• The photos used in this site were obtained from the Southwick’s site also, and directly from the business owner and the photos he has taken.
+
