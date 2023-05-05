@@ -163,6 +163,8 @@ footer {
     body {
       background-color: lightblue;
     }
-  
+    #wrapper {
+        width: 50%;
+    }
   }
 
