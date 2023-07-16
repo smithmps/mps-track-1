@@ -64,19 +64,23 @@
     font-weight:lighter;
     color:cadetblue;
     text-align: center;
+    padding-top: 120px;
 }
 
 #index_name {
     font-family: calibri;
-    padding-left: 70px;
+    padding-left: 65px;
+    padding-top: 50px;
 }
 
 #profile {
-    width: 325px;
+    padding-top: 0px;
+    width: 300px;
     height: 270px;
     border-radius: 50%;
     float:left;
     padding-left: 0px;
+    
 
 }
 
@@ -101,17 +105,33 @@
     list-style-type: none;
 }
 
-.h2nofloat {
+#h2nofloat {
     font-family: calibri;
     font-size: 15pt;
+    padding-top: 100px;
 }
 
+#h3nofloat {
+    font-family: calibri;
+    font-size: 15pt;
+    padding-top: 50px;
+}
+
+#h4nofloat {
+    font-family: calibri;
+    font-size: 15pt;
+    padding-top: 50px;
+}
 .list2 {
     font-family: calibri;
     font-size: 14pt;
     width: 670px;
     list-style-type: none;
     padding-left: 0px;
+}
+
+#ftrplacement {
+    padding-top: 50px;
 }
 
 footer {
@@ -160,11 +180,73 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    /*
     body {
-      background-color: lightblue;
-    }
+        background-color: whits;
+        } 
+    */
     #wrapper {
-        width: 50%;
-    }
-  }
+        width: 100%;
+        }
+    
+    #logo {
+        height: 30px;
+        width: 130px;
+        padding-bottom: 5px;
+        }
+    
+    #nav {
+        width: 100%;
+        }
+    
+    #index_name {
+            width: 100%;
+        }
 
+    #profile {
+        width: 260px;
+        height: 240px;
+        float:none;
+        }
+    
+    .h2float {
+        padding-top: 10px;
+        padding-left: 5px;
+        }
+    
+    #para1 {
+        padding-left: 5px;
+        width: 100%;
+        }
+
+    #list1 {
+        padding-left: 5px;
+        }
+
+    #list2 {
+        padding-left: 5px;
+        }
+
+    #services_img {
+        width: 380px;
+        height: 260px;
+        border-radius: 5%;
+        float: none;
+        }
+
+    #services_name {
+        padding-left: 5px
+        }
+
+    #list3 {
+        padding-left: 5px;   
+        }
+    
+        #para2 {
+            width: 100%;
+        }
+    
+    }
+
+
+    
