@@ -1,6 +1,6 @@
 /* home page */
 #wrapper {
-    margin: 0 auto;
+    margin: 0 auto; /*centres all content*/
     width: 1280px;
     } 
 
@@ -196,17 +196,24 @@ footer {
         }
     
     #nav {
+        display :block;
         width: 100%;
         }
+
+    #motto {
+        display :block;
+        width: 100%;
+            }
     
     #index_name {
-            width: 100%;
+            display : block;
+            width : 100%;
+            padding-left: 100px; /*not sure why padding needed here*/
         }
 
-    #profile { /*display block & margin left/right to center an image - can use display flex/justify content if a div is used */
-        display: block; 
-        margin-left: auto;
-        margin-right: auto;
+    #profile { /*display block & margin : auto to center an image - can use display flex/justify content if a div is used */
+        display: block;
+        margin : auto; /*centers the image on screen*/
         width: 260px;
         height: 240px;
         float:none;
@@ -220,6 +227,7 @@ footer {
     #para1 {
         padding-left: 0px;
         width: 100%;
+
         }
 
     #list1 {
