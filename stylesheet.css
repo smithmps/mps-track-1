@@ -182,7 +182,7 @@ footer {
 @media only screen and (max-width: 600px) {
     /*
     body {
-        background-color: whits;
+        background-color: white;
         } 
     */
     #wrapper {
@@ -203,7 +203,10 @@ footer {
             width: 100%;
         }
 
-    #profile {
+    #profile { /*display block & margin left/right to center an image - can use display flex/justify content if a div is used */
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
         width: 260px;
         height: 240px;
         float:none;
@@ -215,19 +218,24 @@ footer {
         }
     
     #para1 {
-        padding-left: 5px;
+        padding-left: 0px;
         width: 100%;
         }
 
     #list1 {
-        padding-left: 5px;
+        padding-left: 0px;
+        width: 100%;
         }
 
     #list2 {
-        padding-left: 5px;
+        padding-left: 0px;
+        width: 100%
         }
 
     #services_img {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
         width: 380px;
         height: 260px;
         border-radius: 5%;
@@ -239,10 +247,11 @@ footer {
         }
 
     #list3 {
-        padding-left: 5px;   
+        padding-left: 15px;   
         }
     
         #para2 {
+            padding-left: 0px;
             width: 100%;
         }
     
